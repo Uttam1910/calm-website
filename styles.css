@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 253, 240);
+}
+
+header {
+    width: 100%;
+    /* background-color: #fff; */
+    padding: 10px 0;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-left: 200px; /* Increase the gap from the left side */
+}
+
+nav ul li {
+    margin-right: 80px; /* Increase the gap between items */
+}
+
+nav ul li.logo {
+    margin-right: 30px; /* Ensure the logo also has the same margin */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li.logo img {
+    width: 80px;
+    height: auto;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#image1 {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#image2 {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#image3 {
+    width: 420px; /* Width of two images plus the margin between them */
+    height: auto;
+    border-radius: 10px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 70px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 180px; /* Increase the gap between the text and images div */
+}
+
+
+
